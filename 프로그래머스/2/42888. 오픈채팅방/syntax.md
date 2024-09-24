@@ -21,9 +21,9 @@ String nickname = userDB.get("uid1234");  // 유저 uid1234의 닉네임을 가�
 ArrayList<String> messages = new ArrayList<>();
 messages.add("Muzi님이 들어왔습니다.");
 String message = messages.get(0);  // 첫 번째 메시지 가져오기
-'''
+```
 
-## 향상된 for문(for-each)
+### 향상된 for문(for-each)
 - for (String log : record)는 향상된 for문 또는 for-each라고 불리며, 배열이나 리스트의 모든 요소를 순차적으로 순회할 때 사용됩니다.
 - record 배열의 모든 요소를 하나씩 log 변수에 담아 순차적으로 처리합니다.
 
