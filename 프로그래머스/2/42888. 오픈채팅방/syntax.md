@@ -23,7 +23,7 @@ messages.add("Muzi님이 들어왔습니다.");
 String message = messages.get(0);  // 첫 번째 메시지 가져오기
 ```
 
-### 향상된 for문(for-each)
+## 향상된 for문(for-each)
 - for (String log : record)는 향상된 for문 또는 for-each라고 불리며, 배열이나 리스트의 모든 요소를 순차적으로 순회할 때 사용됩니다.
 - record 배열의 모든 요소를 하나씩 log 변수에 담아 순차적으로 처리합니다.
 
@@ -34,7 +34,7 @@ for (String item : items) {
 ```
 여기서 items는 배열 또는 리스트이며, item은 각 요소를 가리킨다.
 
-### split() 메소드
+## split() 메소드
 - String[] parts = log.split(" ");는 문자열을 공백(스페이스)을 기준으로 나누어 문자열 배열로 반환하는 메소드입니다.
 - split(" ")를 통해 문자열을 공백을 기준으로 쪼갠 후, 각각의 단어가 배열에 저장됩니다.
 ```java
